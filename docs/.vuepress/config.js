@@ -2,6 +2,13 @@ module.exports = {
 	base: '/cordova-doc/',
 	title: 'cordova',
 	description: '了解cordova，了解混合移动开发模式',
+	configureWebpack: {
+    resolve: {
+      alias: {
+        '@image': 'notes/images'
+      }
+		}
+	},
 	themeConfig: {
 		docsDir: 'docs',
 		editLinks: true,
@@ -23,7 +30,9 @@ module.exports = {
 								collapsable: false,
 								children: [
 									'/notes/cordova.md',
-									'/notes/cordova-hcp.md'
+									'/notes/cordova-hcp.md',
+									'/notes/cordova-ios.md',
+									'/notes/jenkins.md'
 								]
 						}
 					]
