@@ -29,6 +29,7 @@ module.exports = {
 								title: 'cordova',
 								collapsable: false,
 								children: [
+									'/notes/hybrid.md',
 									'/notes/cordova.md',
 									'/notes/cordova-hcp.md',
 									'/notes/cordova-ios.md',
